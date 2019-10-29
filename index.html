@@ -13,23 +13,45 @@
     <script src="myjs.js"></script>
 -->
 <script src="ex6-1.js"></script>
+<script src="ex6-5.js"></script>
+<script src="ex6-7.js"></script>
+<script src="ex6-8.js"></script>
+
 
 </head>
 
 <body>
-<!--
-    <h1>イベントハンドラの練習</h1>
 <input type="button" value="ここをクリック"
-onclick="alert('Hello,Taisei!');"
--->
+onclick="sayhello();sayhello();">
+
 <h1>イベントハンドラの練習</h1>
 <input type="button" value="ここをクリック"
 onclick="alert('Hello,Taisei!');">
+<!--
+    <h1>イベントハンドラの練習</h1>
+    <input type="button" value="ここをクリック"
+    onclick="alert"('Hello,Taisei!');">
+-->
 
-<input type="button" value="ここをクリック"
+<h1>変数の練習</h1>
+<input type="button" value="あいさつ"
 onclick="sayhello();">
+<input type="button"value="太郎"oneclick="taro();">
+<input type="button" value="花子"oneclick="hanako();">
 
+<h1>引数の練習</h1>
+<input type="button" value="あいさつ" onclick="sayhello();">
+<input type="button" value="太郎" onclick="someone("太郎");">
+<input type="button" value="花子"　onclick="someone("花子");">
 
+<h1>JavaScriptによる変更の練習</h1>
+<input type="button" value="あいさつ"　onclick="sayhello();">
+<input type="button" value="太郎" onclick="taro();">
+<input type="button" value="花子"　onclick="hanako();">
+<p id="who">world</p>
+
+setTimeout('alert("3 seconds have passed");',
+3000);
 </body>
 
 
