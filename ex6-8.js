@@ -1,10 +1,10 @@
-function sayhello(){
-    alert('Hello,'+document.getElementByld('who').innerHTML+'!');
+function sayhello68(){
+    alert('Hello,'+document.getElementById('who').innerHTML+'!');
 
 }
-function taro(){
-    document.getElementsByld('who').innerHTML='太郎';
+function taro68(){
+    document.getElementsById('who').innerHTML='太郎';
 }
-function hanako(){
-    document.getElementByld('who').innerHTML='花子';
+function hanako68(){
+    document.getElementById('who').innerHTML='花子';
 }
