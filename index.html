@@ -2,17 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>Web開発の練習1</title>
+<title>Web開発の練習</title>
 <link rel="stylesheet" href="mystyle.css">
 <ol>
 <li>ほげほげ</li>
 <li>ほにゃらら</li>
 </ol>
-<script src="myjs.js"> </script><!--この行を追加-->
-<!--
-    <script src="myjs.js"></script>
--->
+<script src="myjs.js"> </script>
 <script src="ex6-1.js"></script>
+<script src="ex6-6.js"></script>
 <script src="ex6-5.js"></script>
 <script src="ex6-7.js"></script>
 <script src="ex6-8.js"></script>
@@ -27,16 +25,18 @@ onclick="sayhello();sayhello();">
 <h1>イベントハンドラの練習</h1>
 <input type="button" value="ここをクリック"
 onclick="alert('Hello,Taisei!');">
-<!--
-    <h1>イベントハンドラの練習</h1>
-    <input type="button" value="ここをクリック"
-    onclick="alert"('Hello,Taisei!');">
--->
+
 
 <h1>変数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello65();">
 <input type="button" value="太郎" onclick="taro65();">
 <input type="button" value="花子" onclick="hanako65();">
+
+<h1>変数への代入</h1>
+<input type="button" value="あいさつ"onclick="sayhello66();">
+<input type="button" value="太郎"onclick="taro66();">
+<input type="button" value="花子"onclick="hanako66();">
+
 
 <h1>引数の練習</h1>
 <input type="button" value="あいさつ" onclick="sayhello67();">
@@ -44,10 +44,10 @@ onclick="alert('Hello,Taisei!');">
 <input type="button" value="花子" onclick="someone67('花子');">
 
 <h1>JavaScriptによる変更の練習</h1>
-<input type="button" value="あいさつ"　onclick="sayhello68();">
-<input type="button" value="太郎" onclick="taro68();">
-<input type="button" value="花子"　onclick="hanako68();">
-<p id="who">world</p>
+<input type="button" value="あいさつ"onclick="sayhello68();">
+<input type="button" value="太郎"onclick="taro68();">
+<input type="button" value="花子"onclick="hanako68();">
+<p id="who68">最初はworld</p>
 
 
 </body>
