@@ -9,5 +9,6 @@ function taro66(){
 function hanako66(){
     who66 = '花子';
 }
-function gakita66() {alert(who66 + 'が来た');
+function gakita66() {
+alert(who66 + 'が来た');
 }
