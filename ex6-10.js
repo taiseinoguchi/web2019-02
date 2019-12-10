@@ -12,7 +12,7 @@ function hyoji610(){
             document.timer.moji.value=""; }}
             function startfnc610(){
                 //関数hyoji()を1000ミリ秒間隔で呼び出す
-                setInterval("hyoji",1000);}
+                setInterval610("hyoji()",1000);}
                 
 function mes610(){
     alert("3秒経ちました!");
