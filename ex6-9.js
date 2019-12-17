@@ -5,3 +5,4 @@ function imagechange1(){
     document.getElementById('logo').src=
     './image/bulbon.gif';
 }
+
