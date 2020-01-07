@@ -1,8 +1,8 @@
-function tytchange1(){
+function txtchange1(){
 document.getElementById('txt1').innerHTML='ナンバーワン!';
 }
 function imagechange1(){
-    document.getElementById('logo').src=
+    document.getElementById('logo1').src=
     './image/bulbon.gif';
 }
 
